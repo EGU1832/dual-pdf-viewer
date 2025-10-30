@@ -2,18 +2,12 @@
   <img src="icon.png" alt="Dual PDF Viewer Icon" width="120" height="120" style="border-radius: 20px;">
 </p>
 
-<h1 align="center">Dual PDF Viewer</h1>
-
 <p align="center">
+  <span style="font-size: 2em; font-weight: bold;">Dual PDF Viewer</span><br>
   Compare two PDF files side-by-side in your browser —<br>
   with scroll synchronization, zoom controls, and offset fine-tuning.<br><br>
   <b>v1.3.0 (Release)</b>
 </p>
-
-# Dual PDF Viewer
-
-Compare two PDF files side-by-side in your browser —  
-with scroll synchronization, zoom controls, and offset fine-tuning.
 
 ## 🔧 Tech Stack
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
