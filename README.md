@@ -10,7 +10,7 @@
   Compare two PDF files vertically in your browser —<br>
   with scroll synchronization, zoom controls, and offset fine-tuning.<br><br>
   <b>v1.3.0 (Release)</b>
-  <br><br>
+  <br>
   <a href="https://egu1832.github.io/dual-pdf-viewer/"><strong>Open Live Demo »</strong></a>
   <br><br>
   <a href="https://github.com/egu1832/dual-pdf-viewer/issues/new?labels=bug&template=bug_report.yml">Report bug</a>
