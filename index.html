@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>Dual PDF Viewer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:wght@100..700" rel="stylesheet" />
+  <!-- CSS & PDF.js -->
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Dual PDF Viewer</h1>
+
+    <!-- 파일 로드 -->
+    <label for="topFile" class="icon-btn" title="위 PDF 열기">
+      <span class="material-symbols-rounded">bottom_panel_open</span>
+    </label>
+    <input type="file" id="topFile" accept="application/pdf">
+
+    <label for="bottomFile" class="icon-btn" title="아래 PDF 열기">
+      <span class="material-symbols-rounded">top_panel_open</span>
+    </label>
+    <input type="file" id="bottomFile" accept="application/pdf">
+
+    <div class="divider"></div>
+
+    <!-- 확대/축소 -->
+    <button id="zoomOut" title="축소">
+      <span class="material-symbols-rounded">remove</span>
+    </button>
+    <span id="zoomLabel">120%</span>
+    <button id="zoomIn" title="확대">
+      <span class="material-symbols-rounded">add</span>
+    </button>
+    <button id="resetZoom" title="원래 크기">
+      <span class="material-symbols-rounded">fit_screen</span>
+    </button>
+
+    <div class="divider"></div>
+
+    <!-- 동기화 -->
+    <button id="toggleSync" title="동기화">
+      <span class="material-symbols-rounded">sync</span>
+    </button>
+
+    <div class="divider"></div>
+
+    <!-- 오프셋 정렬 -->
+    <button id="offsetUp" title="아래 PDF 올리기">
+      <span class="material-symbols-rounded">arrow_upward</span>
+    </button>
+    <button id="offsetDown" title="아래 PDF 내리기">
+      <span class="material-symbols-rounded">arrow_downward</span>
+    </button>
+    <button id="resetOffset" title="오프셋 초기화">
+      <span class="material-symbols-rounded">refresh</span>
+    </button>
+    <span id="offsetLabel"
+          style="font-size:13px;color:#aaa;min-width:90px;text-align:center;display:inline-block;">
+      Offset: 0px
+    </span>
+  </header>
+
+
+  <!-- top/bottom PDF viewer -->
+  <div id="top" class="viewer"></div>
+  <div id="bottom" class="viewer"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>

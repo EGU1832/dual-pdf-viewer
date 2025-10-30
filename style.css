@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  background: #2b2b2b;
+  font-family: "Segoe UI", "Noto Sans KR", sans-serif;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* 상단 툴바 */
+header {
+  background: #3b3b3b;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  gap: 6px;
+  border-bottom: 1px solid #4f4f4f;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0 10px 0 6px;
+  color: #ddd;
+}
+
+/* 버튼 스타일 */
+button,
+label.icon-btn {
+  background: transparent;
+  border: none;
+  color: #ccc;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+button:hover,
+label.icon-btn:hover {
+  background: #4b4b4b;
+  color: #fff;
+}
+
+button:active,
+label.icon-btn:active {
+  background: #555;
+}
+
+.material-icons {
+  font-size: 20px;
+}
+
+/* 구분선 */
+.divider {
+  width: 1px;
+  height: 20px;
+  background: #444;
+  margin: 0 4px;
+}
+
+/* 파일 입력 숨기기 */
+input[type="file"] {
+  display: none;
+}
+
+/* 확대 비율 표시 */
+#zoomLabel {
+  font-size: 13px;
+  color: #aaa;
+  width: 50px;
+  text-align: center;
+}
+
+#offsetLabel {
+  font-size: 13px;
+  color: #aaa;
+  min-width: 90px;
+  text-align: center;
+  display: inline-block;
+}
+
+/* PDF 뷰어 */
+.viewer {
+  flex: 1;
+  overflow-y: scroll;
+  background: #333333; /* PDF 뷰 영역 배경 */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 0;
+}
+
+#top {
+  border-bottom: 1px solid #4f4f4f;
+}
+
+/* PDF 페이지 (canvas) */
+canvas {
+  display: block;
+  margin: 8px 0;
+  background: #333333; /* 실제 PDF 배경 */
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
+  border-radius: 3px;
+}
+
+/* Icon Settings */
+.material-symbols-rounded {
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 200,
+    'GRAD' 0,
+    'opsz' 24;
+  font-size: 22px;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+/* Scrollbar Settings */
+.viewer {
+  position: relative;
+  scrollbar-color: #9f9f9f #2c2c2c;
+  scrollbar-width: auto;
+}
+
+.viewer::-webkit-scrollbar-thumb {
+  background-color: #9f9f9f;
+}
+.viewer::-webkit-scrollbar-track {
+  background-color: #2c2c2c;
+}
