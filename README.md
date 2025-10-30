@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="icon.png" alt="Dual PDF Viewer Icon" width="120" height="120" style="border-radius: 20px;">
+</p>
+
 # Dual PDF Viewer
 
 Compare two PDF files side-by-side in your browser —  
