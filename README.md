@@ -29,11 +29,12 @@
 
 ## Directory Structure
 ```
-Obsidian2Github/
-├── README.md
-├── app.js
-├── index.html
-└── style.css
+dual-pdf-viewer/
+├── README.md     /* Project info and usage */
+├── app.js        /* Core script for rendering and sync */
+├── icon.png      /* App icon */
+├── index.html    /* Main page layout */
+└── style.css     /* Visual style settings */
 ```
 
 ## Features
