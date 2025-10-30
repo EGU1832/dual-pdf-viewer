@@ -49,7 +49,7 @@ All PDF files are processed **locally** using `PDF.js`.
 No data is uploaded or stored on any server.
 
 ## Live Demo
-Once published on GitHub Pages, open:
+Published on GitHub Pages, open:
 https://egu1832.github.io/dual-pdf-viewer/
 
 ## License
