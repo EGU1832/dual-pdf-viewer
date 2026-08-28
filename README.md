@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://egu1832.github.io/dual-pdf-viewer/">
+  <a href="https://grapeve12.github.io/dual-pdf-viewer/">
     <img src="icon.png" alt="Dual PDF Viewer Icon" width="180" height="180" style="border-radius: 20px;">
   </a>
 </p>
@@ -11,11 +11,11 @@
   with scroll synchronization, zoom controls, and offset fine-tuning.<br><br>
   <b>v1.3.0 (Release)</b>
   <br>
-  <a href="https://egu1832.github.io/dual-pdf-viewer/"><strong>Open Live Demo »</strong></a>
+  <a href="https://grapeve12.github.io/dual-pdf-viewer/"><strong>Open Live Demo »</strong></a>
   <br><br>
-  <a href="https://github.com/egu1832/dual-pdf-viewer/issues/new?labels=bug&template=bug_report.yml">Report bug</a>
+  <a href="https://github.com/grapeve12/dual-pdf-viewer/issues/new?labels=bug&template=bug_report.yml">Report bug</a>
   ·
-  <a href="https://github.com/egu1832/dual-pdf-viewer/issues/new?labels=enhancement&template=feature_request.yml">Request feature</a>
+  <a href="https://github.com/grapeve12/dual-pdf-viewer/issues/new?labels=enhancement&template=feature_request.yml">Request feature</a>
 </p>
 
 ---
@@ -57,7 +57,7 @@ No data is uploaded or stored on any server.
 
 ## Live Demo
 Published on GitHub Pages, open:  
-https://egu1832.github.io/dual-pdf-viewer/
+https://grapeve12.github.io/dual-pdf-viewer/
 
 ## License
 MIT License — free for personal and educational use.
